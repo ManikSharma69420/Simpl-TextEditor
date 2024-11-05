@@ -2,7 +2,6 @@ from tkinter import *
 from tkinter import filedialog
 from tkinter import messagebox 
 import tkinter.font as tkFont
-import keyboard
 
 global isXclicked
 
