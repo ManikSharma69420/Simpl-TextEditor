@@ -36,7 +36,7 @@ def checkforsave():
 
 gui = Tk()
 
-gui.title("Simpl TextEditor ⱽ¹.⁰")
+gui.title("Simpl TextEditor ⱽ¹.¹")
 
 gui.protocol('WM_DELETE_WINDOW', checkforsave)
 
@@ -48,11 +48,11 @@ txt_font = tkFont.Font(family="Cascadia Code", size=10)
 
 def about():
     aboutui = Tk()
-    aboutui.title("About Simple TextEditor ⱽ¹.⁰")
+    aboutui.title("About Simple TextEditor ⱽ¹.¹")
     l1 = Label(aboutui, text="Made by Manik Sharma (Github - ManikSharma69420) \n Enjoy the editor! \n New stuff like fonts coming soon!")
     l1.pack()
 
-credit_button = Button(gui, text="Simpl TextEditor ⱽ¹.⁰", font=txt_font, bg="#f5f5f5", bd=0, highlightthickness=0, command=about)
+credit_button = Button(gui, text="Simpl TextEditor ⱽ¹.¹", font=txt_font, bg="#f5f5f5", bd=0, highlightthickness=0, command=about)
 credit_button.place(x=400, y=445)
 
 #main text entry box
